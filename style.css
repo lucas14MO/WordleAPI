@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #40916c;
+  }
+     
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-style: italic;
+  }
+     
+  #guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+  }
+     
+  #guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #74c69d;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+     
+  button:active {
+      transform: scale(0.95);
+  }
+     
+  .letter {
+      border: 1px solid black;
+      padding: 3px;
+      margin: 3px;
+      min-width: 20px;
+      text-align: center;
+      display: inline-block
+  }
+     
+  .row{
+      margin-bottom: 10px;
+  }
+     
+  .input-area{
+      margin: 30px;
+  }
+
+  #grid{
+    margin-top: 40px;
+    text-align: center;
+  }
+ 
+  #intentos{
+    text-align: center;
+    color: #70e000;
+  }
+
+  #reset{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #fff128;
+    border: none;
+    border-radius: 3px;
+  }
+
+  #miAudio{
+    width: 150px;
+    height: 25px; 
+  }
+
+  table{
+    margin: 0 auto;
+  }
+ 
